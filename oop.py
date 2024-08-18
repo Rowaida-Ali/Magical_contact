@@ -64,10 +64,10 @@ class Magicalcontentbook:
        self.contacts=[]
     def add(self,contact):
         self.contacts.append(contact)
-    def search(self,nam):
-        for contact in self.contacts:
+    def search(self,name):
+        for content in self.contacts:
             if content1.get_name() ==name:
-              print(content1.describe)
+              print(content.describe())
             else:
               print("not found") 
 contact=Magicalcontentbook()  
